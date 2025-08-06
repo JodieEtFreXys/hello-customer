@@ -13,3 +13,13 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model main_table {
+  id Int @id @default(autoincrement())
+
+  name String
+  favorite_item String?
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
