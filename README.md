@@ -1,6 +1,10 @@
-### express -> Public Dep
+npm install
 
-### dotenv -> Public Dep
+npx prisma migrate dev
+
+npx prisma generate
+
+npm run dev
 
 ----------------------------
 
