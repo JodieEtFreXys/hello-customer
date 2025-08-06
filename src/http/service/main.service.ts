@@ -10,7 +10,7 @@ class MainService {
     public async findHello(): Promise<HelloResponse[]> {
         try {
             const hellos = await prisma.main_table.findMany();
-
+            
             if (!hellos.length) {
                 throw new Error('Hello, It seems that we are not open yet since we have no customer#400')
             }
@@ -74,7 +74,7 @@ class MainService {
         try {
             const customer = await prisma.main_table.findFirst({
                 where: {
-                    id: 1,
+                    id: id,
                 }
             });
 

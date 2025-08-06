@@ -1,10 +1,12 @@
-npm install
+npm install -> Get Library from package.json
+
+npx prisma migrate deploy -> Deploy DB
 
 npx prisma migrate dev
 
-npx prisma generate
+npx prisma generate -> Generate Prisma
 
-npm run dev
+npm run dev -> Run server
 
 ----------------------------
 
