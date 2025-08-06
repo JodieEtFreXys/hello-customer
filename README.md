@@ -1,9 +1,13 @@
-### Express
+### express -> Public Dep
 
-### Dotenv
+### dotenv -> Public Dep
 
-### Typescript 
+----------------------------
 
-### ts-node 
+### typescript  -> Development Dep
 
-### @types/express @types/node nodemon
+### ts-node nodemon -> Development Dep
+
+### @types/express @types/node -> Development Dep
+
+-----------------------------
